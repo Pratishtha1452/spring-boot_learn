@@ -1,4 +1,4 @@
-package colorPrinter;
+package com.springboot.colorPrinter;
 
 public class ColorprinterIml implements ColorPrinte{
 
@@ -7,9 +7,9 @@ public class ColorprinterIml implements ColorPrinte{
     private GreenPrinter greenPrinter;
 
     ColorprinterIml(){
-        this.bluePrinter = new EnglishBluePrinter();
-        this.greenPrinter = new EnglishGreenPrinter();
-        this.redPrinter = new EnglishRedPrinter();
+        this.bluePrinter = bluePrinter;
+        this.greenPrinter = greenPrinter;
+        this.redPrinter = redPrinter;
     }
     @Override
     public String print() {

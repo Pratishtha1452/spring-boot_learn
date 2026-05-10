@@ -1,4 +1,4 @@
-package colorPrinter;
+package com.springboot.colorPrinter;
 
 public class EnglishGreenPrinter implements GreenPrinter{
     @Override

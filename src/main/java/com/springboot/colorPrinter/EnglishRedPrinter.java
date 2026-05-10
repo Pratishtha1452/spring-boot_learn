@@ -1,4 +1,4 @@
-package colorPrinter;
+package com.springboot.colorPrinter;
 
 public class EnglishRedPrinter implements RedPrinter{
 
