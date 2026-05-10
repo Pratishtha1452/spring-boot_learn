@@ -1,4 +1,13 @@
 package com.springboot.colorPrinter;
 
-public class SpanishGreenPrinter {
+import org.springframework.stereotype.Component;
+
+@Component
+public class SpanishGreenPrinter implements GreenPrinter{
+
+
+    @Override
+    public String print() {
+        return "verde";
+    }
 }
