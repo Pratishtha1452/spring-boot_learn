@@ -7,13 +7,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ColorPrinterApplication implements CommandLineRunner {
 
+    private ColorPrinte colorPrinte;
+
+    public ColorPrinterApplication(ColorPrinte colorPrinte){
+        this.colorPrinte = colorPrinte;
+    }
+
     static void main(String[] args) {
+
         SpringApplication.run(ColorPrinterApplication.class, args);
     }
 
     @Override
-    public void run(String... args) throws Exception {
-        ColorPrinte run = new ColorprinterIml();
-        System.out.println(run.print());
+    public void run(final String... args){
+        System.out.println(colorPrinte.print());
     }
 }

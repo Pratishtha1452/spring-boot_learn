@@ -1,4 +1,4 @@
-package com.config;
+package com.springboot.colorPrinter.config;
 
 import com.springboot.colorPrinter.*;
 import org.springframework.context.annotation.Bean;

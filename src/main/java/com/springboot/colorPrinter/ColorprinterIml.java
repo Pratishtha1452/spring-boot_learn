@@ -6,7 +6,7 @@ public class ColorprinterIml implements ColorPrinte{
     private BluePrinter bluePrinter;
     private GreenPrinter greenPrinter;
 
-    ColorprinterIml(){
+    ColorprinterIml(RedPrinter redPrinter, BluePrinter bluePrinter, GreenPrinter greenPrinter){
         this.bluePrinter = bluePrinter;
         this.greenPrinter = greenPrinter;
         this.redPrinter = redPrinter;
